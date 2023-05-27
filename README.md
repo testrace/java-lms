@@ -7,3 +7,9 @@
 
 ## 온라인 코드 리뷰 과정
 * [텍스트와 이미지로 살펴보는 온라인 코드 리뷰 과정](https://github.com/next-step/nextstep-docs/tree/master/codereview)
+
+## 리팩토링 목록
+- [ ] QnaService#deleteQuestion의 서비스 로직을 도메인 객체로 이동한다
+  - [ ] 질문 삭제 로직을 Question 으로 이동
+  - [x] 답변 삭제 로직을 Answer 으로 이동
+    - [ ] 여러개의 답변을 처리하기 위한 일급 컬렉션 추가
